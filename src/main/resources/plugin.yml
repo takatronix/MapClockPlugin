@@ -1,0 +1,6 @@
+name: MapClock
+version: ${project.version}
+main: red.man10.mapclock
+prefix: MapClock
+authors: [takatronix]
+website: http://man10.red
