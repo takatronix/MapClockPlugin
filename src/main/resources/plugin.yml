@@ -4,3 +4,6 @@ main: red.man10.mapclock
 prefix: MapClock
 authors: [takatronix]
 website: http://man10.red
+commands:
+    givec:
+        description: give canvas

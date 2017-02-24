@@ -24,19 +24,21 @@ public class ClockFace extends MapRenderer {
     public void render(MapView view, MapCanvas canvas, Player player){
         try {
 
+            int tick = 0;
             canvas.drawImage(60,50, read(new URL("http://man10.red/man10_icon.png")));
             LocalDateTime now = LocalDateTime.now();
             String time = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss").format(now);
 
             canvas.drawText (10,60, MinecraftFont.Font,time);
-
+            tick++;
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-
     }
 
     private class LocalDate {
+
     }
-}
+    }
+
